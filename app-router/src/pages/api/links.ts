@@ -8,6 +8,8 @@ type Data = {
 };
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
+  console.log('api is called.');
+
   const url = 'https://gq9fphyxxi.microcms.io/api/v1/links';
   const resp = await fetch(url, {
     headers: {

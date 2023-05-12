@@ -10,8 +10,11 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja-JP">
+      <body className={inter.className}>
+        <p className="text-center py-4">App Router</p>
+        {children}
+      </body>
     </html>
   );
 }

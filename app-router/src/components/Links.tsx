@@ -5,7 +5,7 @@ export async function Links() {
   const links = await getLinks({ cache: 'force-cache' });
 
   return (
-    <section className="py-16 grid place-items-center gap-4">
+    <section className="py-4 grid place-items-center gap-4">
       <h2 className="">Links</h2>
       <ul className="flex gap-4">
         {links.map((link, i) => (

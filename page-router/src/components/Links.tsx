@@ -9,7 +9,7 @@ export type LinksProps = {
 
 export const Links: React.FC<LinksProps> = ({ links }) => {
   return (
-    <section className="py-16 grid place-items-center gap-4">
+    <section className="py-4 grid place-items-center gap-4">
       <h2 className="">Links</h2>
       <ul className="flex gap-4">
         {links.map((link, i) => (

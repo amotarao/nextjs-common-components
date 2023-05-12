@@ -22,7 +22,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 export default function Home({ links }: Props) {
   return (
     <div>
-      <h1 className="text-3xl font-bold text-center py-20">Top Page</h1>
+      <h1 className="text-3xl font-bold text-center py-16">Top Page</h1>
       <Links links={links} />
     </div>
   );

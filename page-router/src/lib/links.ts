@@ -1,6 +1,4 @@
 export const getLinks = async (requestInit?: RequestInit) => {
-  return [];
-
   const url = 'https://nextjs-common-components-page-router.vercel.app/api/links';
   const res = await fetch(url, {
     headers: {
